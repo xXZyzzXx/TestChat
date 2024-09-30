@@ -1,0 +1,98 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$PWfOuJDUXEisOGQkAzTkN7$VLFCO++G5ggfp7Hbxs3+pnexUJw9UYuY44zCQNDhAjc=",
+        "last_login": "2024-09-30T12:19:20.470Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-09-30T12:18:45.658Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$EbU23kt2wrQ0GJud9Q88uN$f7Bk5heA/D8kbMDgR+senoaCcajJ6Wlvs74c/uk+YoE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "ewgfe",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-09-30T12:19:35.553Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$XTOREBc8Xx8hg3NezICc99$xREgyUadqSQ3aDgCcWmyFmV4la39AWV4cofOlHaifP0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "f328",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-09-30T13:43:17.517Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$870000$C4wCbwi62NopLHMqOVDKlS$lnzVE8bgmQ2ybnQzob6/JApRjOCloX07mrSmKNZC/Yo=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "JSFu",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-09-30T13:43:27.741Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "chat.thread",
+    "pk": "3a07c43a-237e-4996-a119-b91d75bffc7c",
+    "fields": {
+        "created_at": "2024-09-30T13:10:02.270Z",
+        "updated_at": "2024-09-30T13:10:02.270Z",
+        "participants": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "chat.message",
+    "pk": "94b2434d-9b4a-47c1-b2e1-616f717310a0",
+    "fields": {
+        "created_at": "2024-09-30T13:26:07.725Z",
+        "updated_at": "2024-09-30T13:26:07.725Z",
+        "sender": 1,
+        "text": "sdsds",
+        "thread": "3a07c43a-237e-4996-a119-b91d75bffc7c",
+        "is_read": true
+    }
+}
+]
